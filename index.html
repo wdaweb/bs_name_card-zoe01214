@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <style>
+    * {
+      font-family: 'Microsoft JhengHei', sans-serif;
+    }
+
+    .container {
+      height: 100%;
+    }
+
+    .acol {
+      height: 30%;
+      min-height: 200px;
+    }
+
+    .bcol {
+      height: 70%;
+    }
+
+    .img-fluid {
+      height: 100%;
+    }
+
+
+    .w-80 {
+      width: 80%;
+    }
+
+    h1,
+    .h1 {
+      font-size: 2.2rem;
+    }
+
+    .shadow-right {
+      border-bottom: 2px solid transparent;
+      border-image: linear-gradient(to right, transparent, rgba(112, 112, 112, 0.3), transparent);
+      border-image-slice: 10;
+    }
+
+
+    @media (min-width: 576px) {
+
+      .container {
+        max-width: 540px;
+        height: 280px;
+      }
+
+      .acol {
+        height: 100%;
+      }
+
+      .bcol {
+        height: 100%;
+      }
+
+      .img-fluid {
+        height: auto;
+        width: 100%;
+      }
+
+      .w-80 {
+        width: 100%;
+      }
+
+      .shadow-right {
+        border-right: 2px solid transparent;
+        border-image: linear-gradient(to top, transparent, rgba(112, 112, 112, 0.3), transparent);
+        border-image-slice: 10;
+      }
+    }
+  </style>
+</head>
+
+<body class="vh-100 d-sm-flex flex-row justify-content-center align-items-center">
+  <div class="container shadow">
+    <div class="row h-100 bg-light">
+      <div class="col-12 col-sm-4 acol d-flex justify-content-center align-items-center p-2 shadow-right">
+        <img src="./defense.png" alt="" class="img-fluid">
+      </div>
+      <div class="col-12 col-sm-8 bcol">
+        <div class="row h-100 p-5 p-sm-3">
+          <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+            <div class="w-80">
+              <div class="p pb-1">COVID-19 防疫尖兵</div>
+              <div class="h1">賴韻如 Yunru Lai</div>
+              <div class="h5">中華民國台灣代表</div>
+            </div>
+          </div>
+          <hr>
+          <div class="col-12  d-flex flex-column justify-content-center align-items-center">
+            <div class="w-80">
+              <div class="p">電話：02-2288-5858</div>
+              <div class="p">E-Mail：<span class="small">Fangyi@example.com</span></div>
+              <div class="p">網站: <span class="small">https://fangyiexample.com/</span></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/jquery-3.6.0.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
